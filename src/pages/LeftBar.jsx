@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
+import { Image } from 'primereact/image';
 const JSIcon = require("../assets/JSIcon.png");
-// const GitLogo = require("../assets/GitLogo.png");
+const GitLogo = require("../assets/GitLogo.png");
 const LinkedinLogo = require("../assets/LinkedinLogo.png");
 const KaggleLogo = require("../assets/KaggleLogo.png");
 const MailLogo = require("../assets/MailLogo.png");
+const ProfilePic = require("../assets/profilepic.jpg")
 
 export default function LeftBar() {
     const [showWebList, SetShowWebList] = useState(true);
     const [showProjectsList, SetShowProjectsList] = useState(true);
+    // const icon = (<i className="pi pi-check"></i>)
 
     const WebList = () => (
         <div>
@@ -19,7 +22,7 @@ export default function LeftBar() {
                 alt="JS Icon"
                 className="w-7 mr-1  ml-5 text-yellow_vs"
               />
-              <p>First project</p>
+              <p >Personal Website</p>
             </div>
           </a>
           <a href="/">
@@ -71,37 +74,53 @@ export default function LeftBar() {
                 {showWebList ? <WebList /> : null}
               </>
             ) : null}
+            
             <div className="absolute inset-x-0 bottom-10 ">
-              <div className="flex px-6 space-x-7">
-                {/* <a href="/">
-                  <img
-                    src={GitLogo}
-                    alt="Git Logo"
-                    className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
-                  />
-                </a> */}
-                <a href="/">
-                  <img
-                    src={KaggleLogo}
-                    alt="Kaggle Logo"
-                    className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
-                  />
-                </a>
-                <a href="/">
-                  <img
-                    src={LinkedinLogo}
-                    alt="Linkedin Logo"
-                    className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
-                  />
-                </a>
-                <a href="/">
-                  <img
-                    src={MailLogo}
-                    alt="Mail Logo"
-                    className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
-                  />
-                </a>
-              </div>
+
+                <div className="card flex justify-content-center px-6 ">
+                    {/* <a href="/"> */}
+                    <Image
+                        src={ProfilePic}
+                        alt="Profile Pic"
+                        className="h-50 w-50 "
+                        // indicatorIcon={icon}
+                        // preview width="250" 
+                        
+                    />
+                    {/* </a> */}
+                </div>
+                <br/>
+
+                <div className="flex px-6 space-x-7">
+                    <a href="/">
+                    <img
+                        src={GitLogo}
+                        alt="Git Logo"
+                        className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+                    />
+                    </a>
+                    <a href="/">
+                    <img
+                        src={KaggleLogo}
+                        alt="Kaggle Logo"
+                        className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+                    />
+                    </a>
+                    <a href="/">
+                    <img
+                        src={LinkedinLogo}
+                        alt="Linkedin Logo"
+                        className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+                    />
+                    </a>
+                    <a href="/">
+                    <img
+                        src={MailLogo}
+                        alt="Mail Logo"
+                        className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+                    />
+                    </a>
+                </div>
             </div>
           </div>
         </div>

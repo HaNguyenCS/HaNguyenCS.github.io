@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import tw from "tailwind-styled-components";
 // import { XIcon } from "@heroicons/react/solid";
+import { DocumentIcon, HomeIcon, IdentificationIcon } from "@heroicons/react/solid";
 
 const JSIcon = require("../assets/JSIcon.png");
+const HTMLIcon = require("../assets/html.png");
+
 
 export default function NavBar({ showPage, setShowPage }) {
     const [hidePage, setHidePage] = useState([]);
@@ -15,11 +18,7 @@ export default function NavBar({ showPage, setShowPage }) {
                     setShowPage("home");
                 }}
                 >
-                <img
-                    src={JSIcon}
-                    alt="JS Icon"
-                    className="w-7 mr-1  text-yellow_vs"
-                />
+                <HomeIcon className="h-5 w-5 mr-4 text-yellow_vs" />
                 Home.js
                 </ActiveContainer>
             ) : (
@@ -42,11 +41,7 @@ export default function NavBar({ showPage, setShowPage }) {
                     setShowPage("about");
                 }}
                 >
-                <img
-                    src={JSIcon}
-                    alt="JS Icon"
-                    className="w-7 mr-1  text-yellow_vs"
-                />
+                <IdentificationIcon className="h-5 w-5 mr-4 text-yellow_vs" />
                 About.js
                 </ActiveContainer>
             ) : (
@@ -69,11 +64,7 @@ export default function NavBar({ showPage, setShowPage }) {
                     setShowPage("resume");
                 }}
                 >
-                <img
-                    src={JSIcon}
-                    alt="JS Icon"
-                    className="w-7 mr-1  text-yellow_vs"
-                />
+                <DocumentIcon className="h-5 w-5 mr-4 text-yellow_vs" />
                 Resume.js
                 </ActiveContainer>
             ) : (
@@ -90,24 +81,24 @@ export default function NavBar({ showPage, setShowPage }) {
                 Resume.js
                 </Container>
             )}
-            {/* {hidePage.includes("contact") ? null : showPage === "contact" ? (
+            {hidePage.includes("projects") ? null : showPage === "projects" ? (
                 <ActiveContainer
                 onClick={() => {
-                    setShowPage("contact");
+                    setShowPage("projects");
                 }}
                 >
                 <img src={JSIcon} alt="JS Icon" className="w-7 mr-1 text-yellow_vs" />
-                Contact.js
+                Projects.js
                 </ActiveContainer>
             ) : (
                 <Container
                 onClick={() => {
-                    setShowPage("contact");
+                    setShowPage("projects");
                 }}
                 >
                 <img src={JSIcon} alt="JS Icon" className="w-7 mr-1 text-yellow_vs" />
-                Contact.js
-                <XIcon
+                Projects.js
+                {/* <XIcon
                     className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
                     onClick={(e) => {
                     e.stopPropagation();
@@ -116,9 +107,9 @@ export default function NavBar({ showPage, setShowPage }) {
                     console.log(hidePage);
 
                     }}
-                />
+                /> */}
                 </Container>
-            )} */}
+            )}
         </div>
     )
 }
