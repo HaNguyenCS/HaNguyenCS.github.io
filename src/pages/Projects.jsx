@@ -16,11 +16,19 @@ export default function Projects() {
               </code>
               <div className="table-cell border-b border-b-[#e6f1ff] border-opacity-25 w-full"></div>
             </div>
+
             <div className="text-[#a2aabc] text-lg mt-5">
+              <code style = {{fontfamily: 'Courier New'}}>
+                <code style = {{fontfamily: 'Courier New', fontWeight: 'bold', fontStyle: 'italic'}}>
+                1. Personal Website </code>
+
+                <code style = {{fontfamily: 'Courier New', fontWeight: 'bold', fontStyle: 'italic'}}>
+                2. Music Center Management Website </code>
+              </code>
+            </div>
               
             </div>
             <br /><br />
           </div>
-      </div>
     );
 }

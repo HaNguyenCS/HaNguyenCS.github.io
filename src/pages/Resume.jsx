@@ -18,7 +18,7 @@ export default function Resume() {
               <div className="table-cell border-b border-b-[#e6f1ff] border-opacity-25 w-full"></div>
             </div>
             <div className="text-[#a2aabc] text-lg mt-5">
-              
+                
             </div>
             <br /><br />
           </div>

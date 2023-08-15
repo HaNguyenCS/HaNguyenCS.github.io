@@ -32,17 +32,17 @@ export default function About() {
             </div>
             <div className="text-[#a2aabc] text-lg mt-5">
               <code style = {{fontfamily: 'Courier New'}}>
-              I am going to third-year honours <code style = {{fontfamily: 'Courier New', fontWeight: 'bold', fontStyle: 'italic'}}>
-              Computer Science (CO-OP) </code>, and pursuing a Minor in Economics at  
-              <a rel="nofollow" href="https://www.mcmaster.ca/" target="_blank" style={{color: '#676767'}}> McMaster University</a>. 
-              I am a studious and passionate person with
-              <code style = {{fontfamily: 'Courier New', fontWeight: 'bold', fontStyle: 'italic'}}> Front-end</code> web development experience, 
-              and the ability to use 
-              <code style = {{fontfamily: 'Courier New', fontWeight: 'bold', fontStyle: 'italic'}}> Java, Python, and JavaScript for coding and Figma for UI/UX desgin</code>.
-              I am searching for coop opportunities 
-              (4 - 8 - 12 months) starting spring/ summer 2024. 
-              I am always eager to learn new things as well as look for challenges to improve my skills,
-              so please reach out to me if you would love to connect!
+              I am a dedicated third-year <code style = {aboutstyle}> Computer Science (CO-OP) </code> student at  
+              <a rel="nofollow" href="https://www.mcmaster.ca/" target="_blank" style={{color: '#676767'}}> McMaster University</a>.
+              With a strong focus on <code style = {aboutstyle}> Front-end</code> web development 
+              and a foundational understanding of <code style = {aboutstyle}> backend technologies</code>, 
+              I am enthusiastic about showcasing my experience and basic proficiency in both areas. 
+              I have practical experience with <code style = {aboutstyle}>ReactJS</code> and 
+              proficiency in <code style = {aboutstyle}>Java, Python, and JavaScript</code> . 
+              Currently, I am actively seeking cooperative opportunities (ranging from 4 to 12 months) commencing in the <code style = {{textDecorationLine: 'underline'}}> summer of 2024</code>.  
+              My enthusiasm for continuous learning and tackling new challenges drives me to enhance my skill set. 
+              I welcome the chance to connect, so please feel free to reach out!
+
               </code>
               <br /><br />
     
@@ -137,4 +137,11 @@ export default function About() {
           </div>
         </div>
       );
+}
+
+const aboutstyle = {
+  fontfamily: 'Courier New',
+  fontWeight: 'bold', 
+  fontStyle: 'italic', 
+  color: '#676767'
 }
