@@ -17,22 +17,32 @@ export default function LeftBar() {
         <div>
           <a href="/">
             <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
-              <img
+              {/* <img
                 src={JSIcon}
                 alt="JS Icon"
                 className="w-7 mr-1  ml-5 text-yellow_vs"
-              />
+              /> */}
               <p >Personal Website</p>
             </div>
           </a>
-          <a href="/">
+          <a target='_blank' href="http://103.130.212.35:1289/TTNhac/auth/login/">
             <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
-              <img
+              {/* <img
                 src={JSIcon}
                 alt="JS Icon"
                 className="w-7 mr-1  ml-5 text-yellow_vs"
-              />
-              <p>Second Project</p>
+              /> */}
+              <p>Music Center Management</p>
+            </div>
+          </a>
+          <a target='_blank' href="/">
+            <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
+              {/* <img
+                src={JSIcon}
+                alt="JS Icon"
+                className="w-7 mr-1  ml-5 text-yellow_vs"
+              /> */}
+              <p>NewsNewsNews (ongoing)</p>
             </div>
           </a>
         </div>

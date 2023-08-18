@@ -1,8 +1,8 @@
 {
   "name": "myprofile",
-  "homepage": "https://harhaarr.github.io/HaNguyenPortfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://harhaarr.github.io/HaNguyenPortfolio/",
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.5",
@@ -15,7 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.13.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "tailwind-styled-components": "^2.2.0",
     "web-vitals": "^2.1.4"
   },
