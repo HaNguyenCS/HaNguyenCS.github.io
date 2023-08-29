@@ -25,26 +25,26 @@ export default function LeftBar() {
               <p >Supervised Machine Learning: Regression and Classification </p>
             </div>
           </a>
-          <a target='_blank' href="http://103.130.212.35:1289/TTNhac/auth/login/">
+          {/* <a target='_blank' href="http://103.130.212.35:1289/TTNhac/auth/login/">
             <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
-              {/* <img
+              <img
                 src={JSIcon}
                 alt="JS Icon"
                 className="w-7 mr-1  ml-5 text-yellow_vs"
-              /> */}
+              />
               <p>Music Center Management</p>
             </div>
-          </a>
-          <a target='_blank' href="/">
+          </a> */}
+          {/* <a target='_blank' href="/">
             <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
-              {/* <img
+              <img
                 src={JSIcon}
                 alt="JS Icon"
                 className="w-7 mr-1  ml-5 text-yellow_vs"
-              /> */}
+              />
               <p>NewsNewsNews (ongoing)</p>
             </div>
-          </a>
+          </a> */}
         </div>
       );
 
@@ -79,7 +79,7 @@ export default function LeftBar() {
                     <ChevronRightIcon className="w-7 mr-1  ml-5" />
                   )}
     
-                  <p>Web</p>
+                  <p>Coursera</p>
                 </div>
                 {showWebList ? <WebList /> : null}
               </>
