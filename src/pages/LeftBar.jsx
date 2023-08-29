@@ -15,14 +15,14 @@ export default function LeftBar() {
 
     const WebList = () => (
         <div>
-          <a href="/">
+          <a href="https://www.coursera.org/account/accomplishments/certificate/AVA8A928KW8K">
             <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
               {/* <img
                 src={JSIcon}
                 alt="JS Icon"
                 className="w-7 mr-1  ml-5 text-yellow_vs"
               /> */}
-              <p >Personal Website</p>
+              <p >Supervised Machine Learning: Regression and Classification </p>
             </div>
           </a>
           <a target='_blank' href="http://103.130.212.35:1289/TTNhac/auth/login/">
@@ -63,7 +63,7 @@ export default function LeftBar() {
               ) : (
                 <ChevronRightIcon className="w-7 mr-1" /> //if not, left icon
               )}
-              <p>Projects</p>
+              <p>Certifications</p>
             </div>
     
             {showProjectsList ? (

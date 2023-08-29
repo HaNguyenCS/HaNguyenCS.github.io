@@ -19,11 +19,31 @@ export default function Projects() {
 
             <div className="text-[#a2aabc] text-lg mt-5">
               <code style = {{fontfamily: 'Courier New'}}>
-                <code style = {{fontfamily: 'Courier New', fontWeight: 'bold', fontStyle: 'italic'}}>
-                1. Personal Website </code>
+                <div>
+                  <code style = {{fontfamily: 'Courier New', fontWeight: 'bold', fontStyle: 'italic'}}>
+                  1. Personal Website</code>: JavaScript, HTML, CSS, ReactJS, TailwindCSS
+                </div>
 
-                <code style = {{fontfamily: 'Courier New', fontWeight: 'bold', fontStyle: 'italic'}}>
-                2. Music Center Management Website </code>
+                <div>
+                  <code style = {{fontfamily: 'Courier New', fontWeight: 'bold', fontStyle: 'italic'}}>
+                  2. Music Center Management Website </code>: JavaScript, HTML, CSS, ReactJS
+                  <a target='_blank' href="http://103.130.212.35:1289/TTNhac/auth/login/">
+                    <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
+                      {/* <img
+                        src={JSIcon}
+                        alt="JS Icon"
+                        className="w-7 mr-1  ml-5 text-yellow_vs"
+                      /> */}
+                      <p>Music Center Management</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div>
+                  <code style = {{fontfamily: 'Courier New', fontWeight: 'bold', fontStyle: 'italic'}}>
+                  3. NewsNewsNews </code>: FastAPI, Python, Firebase, ReactJS, JavaScript, HTML, CSS (ongoing)
+                </div>
+
               </code>
             </div>
               

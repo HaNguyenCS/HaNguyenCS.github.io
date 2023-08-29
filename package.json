@@ -2,7 +2,7 @@
   "name": "myprofile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harhaarr.github.io/HaNguyenPortfolio/",
+  "homepage": "https://harhaarr.github.io/",
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.5",
