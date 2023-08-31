@@ -20,7 +20,7 @@ export default function About() {
         <div
           id="About"
           //mt: margin top; mx: horizontal margin (mx-size)
-          className="mx-12 mt-60 lg:mx-60 items-center justify-center lg:w-1/2 text-justify"
+          className="mx-12 mt-60 lg:mx-60 items-center justify-center  text-justify"
         >
           <div>
             <div className="table">

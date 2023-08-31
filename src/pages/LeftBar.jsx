@@ -15,7 +15,7 @@ export default function LeftBar() {
 
     const WebList = () => (
         <div>
-          <a href="https://www.coursera.org/account/accomplishments/certificate/AVA8A928KW8K">
+          <a target='_blank' href="https://www.coursera.org/account/accomplishments/certificate/AVA8A928KW8K">
             <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
               {/* <img
                 src={JSIcon}
@@ -101,7 +101,7 @@ export default function LeftBar() {
                 </div>
                 <br/>
 
-                <div className="flex px-6 space-x-7">
+                {/* <div className="flex px-6 space-x-7">
                     <a href="/">
                     <img
                         src={GitLogo}
@@ -130,7 +130,7 @@ export default function LeftBar() {
                         className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
                     />
                     </a>
-                </div>
+                </div> */}
             </div>
           </div>
         </div>
