@@ -6,7 +6,7 @@ const GitLogo = require("../assets/GitLogo.png");
 const LinkedinLogo = require("../assets/LinkedinLogo.png");
 const KaggleLogo = require("../assets/KaggleLogo.png");
 const MailLogo = require("../assets/MailLogo.png");
-const ProfilePic = require("../assets/profilepic.jpg")
+const ProfilePic = require("../assets/profile_new.jpg")
 
 export default function LeftBar() {
     const [showWebList, SetShowWebList] = useState(true);
@@ -23,6 +23,11 @@ export default function LeftBar() {
                 className="w-7 mr-1  ml-5 text-yellow_vs"
               /> */}
               <p >Supervised Machine Learning: Regression and Classification </p>
+            </div>
+          </a>
+          <a target='_blank' href="https://docs.google.com/document/d/1RDwB1dHocX3rkgItujD5xbEaY3yBULq9KtNV7zO_zFs/edit?usp=sharing">
+            <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
+              <p >(See my notes here!) </p>
             </div>
           </a>
           {/* <a target='_blank' href="http://103.130.212.35:1289/TTNhac/auth/login/">

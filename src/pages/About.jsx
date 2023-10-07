@@ -11,6 +11,8 @@ const NodeJSLogo = require("../assets/NodeJSLogo.png");
 const Java = require("../assets/java.png");
 const C = require("../assets/C.png");
 const html = require("../assets/html.png");
+const fast = require("../assets/fastapi.png");
+
 
 
 
@@ -130,6 +132,14 @@ export default function About() {
                     className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
                   />
                   <code>SQL</code>
+                </div>
+                <div className="flex flex-row mb-3">
+                  <img
+                    src={fast}
+                    alt="fastapi Logo"
+                    className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+                  />
+                  <code>FastAPI</code>
                 </div>
                 
               </div>

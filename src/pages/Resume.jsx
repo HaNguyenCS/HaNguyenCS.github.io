@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { DocumentIcon } from "@heroicons/react/solid";
 import { Document, Page, pdfjs } from 'react-pdf';
-import myResume from './HaNguyenCS_Resume.pdf'
+import myResume from './Ha Nguyen Software Dev resume.pdf'
 import {Viewer, Worker} from '@react-pdf-viewer/core'
 import { toolbarPlugin } from '@react-pdf-viewer/toolbar';
 
@@ -69,7 +69,7 @@ export default function Resume() {
               </div>
               <a
                 href={myResume}
-                download="Ha Nguyen CS Resume"
+                download="Ha Nguyen Software Dev Resume"
                 target="_blank"
                 rel="noreferrer"
               >

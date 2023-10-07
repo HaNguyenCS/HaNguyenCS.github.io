@@ -72,13 +72,14 @@ export default function Projects() {
                     </p>
                     <br/>
                     <p>
-                    • A website is created for an admin to maintain a music center by managing students, teachers, classrooms, and types
-                    of equipment.
+                    • Worked as a front-end developer in a team of 5 to implement JavaScript, HTML, and CSS, using React framework
+                    to create a music center website for an admin to manage up to 200 students, teachers, classrooms, and types of
+                    equipment.
                     </p>
-                    <p>
-                    • Integrated real-time features to update class schedules, enabling admins to create classes, manage classes’ status,
-                    tuition, teachers’ salaries, and more
-                    </p>
+                    <code>
+                    • Integrated real-time features to update class schedules, enabling admins to create classes, and manage classes’
+                    status, tuition, and teachers’ salaries, resulting in a time reduction of 70% of administrative tasks.
+                    </code>
                   </div>
 
 
@@ -88,7 +89,7 @@ export default function Projects() {
 
                 <div>
                   <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
-                    NewsNewsNews (ongoing)
+                    NewsNewsNews (upcoming)
                   </code>
                   <code style = {{fontfamily: 'Courier New', fontStyle: 'italic'}}>
                     FastAPI, Python, Firebase, ReactJS, JavaScript, HTML, CSS
