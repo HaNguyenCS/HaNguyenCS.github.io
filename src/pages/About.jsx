@@ -40,7 +40,7 @@ export default function About() {
               and a foundational understanding of <code style = {aboutstyle}> backend technologies</code>, 
               I am enthusiastic about showcasing my experience and basic proficiency in both areas. 
               I have practical experience with <code style = {aboutstyle}>ReactJS</code> and 
-              proficiency in <code style = {aboutstyle}>Java, Python, and JavaScript</code> . 
+              proficiency in <code style = {aboutstyle}>Java, Python, and JavaScript</code>. I also have experiences with <code style = {aboutstyle}>Power BI and data analysis. </code>
               Currently, I am actively seeking cooperative opportunities (ranging from 4 to 12 months) commencing in the <code style = {{textDecorationLine: 'underline'}}> summer of 2024</code>.  
               My enthusiasm for continuous learning and tackling new challenges drives me to enhance my skill set. 
               I welcome the chance to connect, so please feel free to reach out!
