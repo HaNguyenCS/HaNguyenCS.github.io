@@ -10,6 +10,7 @@ const ProfilePic = require("../assets/profile_new.jpg")
 
 export default function LeftBar() {
     const [showWebList, SetShowWebList] = useState(true);
+    const [showWebList2, SetShowWebList2] = useState(true);
     const [showProjectsList, SetShowProjectsList] = useState(true);
     // const icon = (<i className="pi pi-check"></i>)
 
@@ -40,16 +41,31 @@ export default function LeftBar() {
               <p>Music Center Management</p>
             </div>
           </a> */}
-          {/* <a target='_blank' href="/">
+          {/* <a target='_blank' href="https://learn.microsoft.com/api/credentials/share/en-us/ThanhHaNguyen-4527/C5A93C4F22604EBE?sharingId=A8D73735CD1FEEA2">
             <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
               <img
                 src={JSIcon}
                 alt="JS Icon"
                 className="w-7 mr-1  ml-5 text-yellow_vs"
               />
-              <p>NewsNewsNews (ongoing)</p>
+              <p>Power BI</p>
             </div>
           </a> */}
+        </div>
+      );
+      
+      const WebList2 = () => (
+        <div>
+          <a target='_blank' href="https://learn.microsoft.com/api/credentials/share/en-us/ThanhHaNguyen-4527/C5A93C4F22604EBE?sharingId=A8D73735CD1FEEA2">
+            <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
+              {/* <img
+                src={JSIcon}
+                alt="JS Icon"
+                className="w-7 mr-1  ml-5 text-yellow_vs"
+              /> */}
+              <p>Power BI Data Analyst</p>
+            </div>
+          </a>
         </div>
       );
 
@@ -86,9 +102,29 @@ export default function LeftBar() {
     
                   <p>Coursera</p>
                 </div>
+
                 {showWebList ? <WebList /> : null}
+
+                <div
+                  //Projects list - sublist - web
+                  className="flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] font-bold w-72"
+                  onClick={() => SetShowWebList2(!showWebList2)}
+                >
+                  {showWebList2 ? (
+                    <ChevronDownIcon className="w-7 mr-1  ml-5" />
+                  ) : (
+                    <ChevronRightIcon className="w-7 mr-1  ml-5" />
+                  )}
+    
+                  <p>Microsoft</p>
+                </div>
+              
+                {showWebList2 ? <WebList2 /> : null}
+
               </>
+              
             ) : null}
+            
             
             <div className="absolute inset-x-0 bottom-10 ">
 

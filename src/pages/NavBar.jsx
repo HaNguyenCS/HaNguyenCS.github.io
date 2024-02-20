@@ -11,7 +11,7 @@ export default function NavBar({ showPage, setShowPage }) {
     const [hidePage, setHidePage] = useState([]);
 
     return (
-        <div className="flex flex-row h-full">
+        <div className="flex flex-row h-full" style ={{position: 'sticky'}}>
             {showPage === "home" ? (
                 <ActiveContainer
                 onClick={() => {
