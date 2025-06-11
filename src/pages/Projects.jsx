@@ -47,7 +47,7 @@ export default function Projects() {
 
                 <br/> <br/> <br/>
 
-                <div>
+                {/* <div>
                   <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
                     Music Center Management Website
                   </code>
@@ -83,17 +83,41 @@ export default function Projects() {
                   </div>
 
 
-                </div>
+                </div> */}
                 
-                <br/> <br/> <br/>
+                <br/> <br/>
 
                 <div>
                   <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
-                    NewsNewsNews (upcoming)
+                    The Dill Banh Mi
                   </code>
                   <code style = {{fontfamily: 'Courier New', fontStyle: 'italic'}}>
-                    FastAPI, Python, Firebase, ReactJS, JavaScript, HTML, CSS
+                     ReactJS, TypeScript, AWS, Material UI, , HTML, CSS
                   </code>
+
+                  <br/>
+                  <br/>
+
+                  <div>
+                    <a target='_blank' href="https://main.d2a6e3vqjkjyaa.amplifyapp.com/">
+                      <button
+                        className="border border-lightblue_vs text-lightblue_vs  p-1.5 rounded hover:bg-opacity-10 hover:bg-lightblue_vs "
+                        >
+                          Check it out! &nbsp;
+                          <i className='pi  pi-check'> </i>
+                      </button>
+                    </a>
+                    <br/>
+                    <p>
+                    • A serverless e-commerce web app using React, hosted on AWS Amplify, enabling customers to place orders for
+                    Vietnamese banh mi and drinks through a modern, responsive UI.
+                    </p>
+                    <code>
+                    • Developed an admin dashboard with protected REST endpoints (API Gateway + Lambda + JWT authorizer) to
+                    perform CRUD operations on menu sections.
+                    </code>
+                  </div>
+
                 </div>
 
               </code>

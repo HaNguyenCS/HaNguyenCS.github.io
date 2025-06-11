@@ -6,7 +6,7 @@ const GitLogo = require("../assets/GitLogo.png");
 const LinkedinLogo = require("../assets/LinkedinLogo.png");
 const KaggleLogo = require("../assets/KaggleLogo.png");
 const MailLogo = require("../assets/MailLogo.png");
-const ProfilePic = require("../assets/profile_new.jpg")
+const ProfilePic = require("../assets/profileNew.jpeg")
 
 export default function LeftBar() {
     const [showWebList, SetShowWebList] = useState(true);
@@ -133,9 +133,8 @@ export default function LeftBar() {
                     <Image
                         src={ProfilePic}
                         alt="Profile Pic"
-                        className="h-50 w-50 "
-                        // indicatorIcon={icon}
-                        // preview width="250" 
+                        className="h-50 w-50"
+                        imageStyle={{ objectFit: 'cover', width: '250px', height: '250px' }}
                         
                     />
                     {/* </a> */}

@@ -34,7 +34,7 @@ export default function About() {
             </div>
             <div className="text-[#a2aabc] text-lg mt-5">
               <code style = {{fontfamily: 'Courier New'}}>
-              I am a dedicated third-year <code style = {aboutstyle}> Computer Science (CO-OP) </code> student at  
+              {/* I am a dedicated third-year <code style = {aboutstyle}> Computer Science (CO-OP) </code> student at  
               <a rel="nofollow" href="https://www.mcmaster.ca/" target="_blank" style={{color: '#676767'}}> McMaster University</a>.
               With a strong focus on <code style = {aboutstyle}> Front-end</code> web development 
               and a foundational understanding of <code style = {aboutstyle}> backend technologies</code>, 
@@ -43,8 +43,15 @@ export default function About() {
               proficiency in <code style = {aboutstyle}>Java, Python, and JavaScript</code>. I also have experiences with <code style = {aboutstyle}>Power BI and data analysis. </code>
               Currently, I am actively seeking cooperative opportunities (ranging from 4 to 12 months) commencing in the <code style = {{textDecorationLine: 'underline'}}> summer of 2024</code>.  
               My enthusiasm for continuous learning and tackling new challenges drives me to enhance my skill set. 
-              I welcome the chance to connect, so please feel free to reach out!
+              I welcome the chance to connect, so please feel free to reach out! */}
 
+              I’m an Honours Computer Science co-op at McMaster (minor in Economics) with hands-on experience building responsive
+              , full-stack web applications. 
+              I’ve delivered <code style = {aboutstyle}>Angular/TypeScript</code> front-endsand serverless backends on 
+              <code style = {aboutstyle}>AWS (Lambda, S3, DynamoDB) and RESTful API </code>
+              at Evertz Microsystems, and earlier built <code style = {aboutstyle}>ReactJS/React Native</code> interfaces at Harmonysoft.
+               I also have experiences with <code style = {aboutstyle}>Power BI and data analysis. </code>
+               I thrive on optimizing performance, crafting clean UI/UX, and learning the latest cloud and web technologies.
               </code>
               <br /><br />
     

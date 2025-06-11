@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { DocumentIcon } from "@heroicons/react/solid";
 import { Document, Page, pdfjs } from 'react-pdf';
-import myResume from './Ha Nguyen Resume.pdf'
+import myResume from './Thanh_Ha_Nguyen_resume.pdf'
 import {Viewer, Worker} from '@react-pdf-viewer/core'
 import { toolbarPlugin } from '@react-pdf-viewer/toolbar';
 
