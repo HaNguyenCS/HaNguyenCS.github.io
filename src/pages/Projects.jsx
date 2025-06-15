@@ -99,7 +99,7 @@ export default function Projects() {
                   <br/>
 
                   <div>
-                    <a target='_blank' href="https://main.d2a6e3vqjkjyaa.amplifyapp.com/">
+                    <a target='_blank' href="https://main.d2u3drbesgrpqx.amplifyapp.com/">
                       <button
                         className="border border-lightblue_vs text-lightblue_vs  p-1.5 rounded hover:bg-opacity-10 hover:bg-lightblue_vs "
                         >
