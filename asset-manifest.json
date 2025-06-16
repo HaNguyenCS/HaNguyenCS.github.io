@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.5b311aae.css",
-    "main.js": "/static/js/main.5e8c835e.js",
+    "main.js": "/static/js/main.0da904b2.js",
     "static/js/787.a6e0be23.chunk.js": "/static/js/787.a6e0be23.chunk.js",
     "static/media/profileNew.jpeg": "/static/media/profileNew.67bab08877521aefc2f7.jpeg",
     "static/media/primeicons.svg": "/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/SqlLogo.png": "/static/media/SqlLogo.85fb38d6773862e917f4.png",
     "static/media/NodeJSLogo.png": "/static/media/NodeJSLogo.aabc0115471d1e8b2d6e.png",
-    "static/media/Thanh_Ha_Nguyen_resume.pdf": "/static/media/Thanh_Ha_Nguyen_resume.8e6e826ba2818b937db0.pdf",
+    "static/media/Thanh_Ha_Nguyen_resume.pdf": "/static/media/Thanh_Ha_Nguyen_resume.31e4213ecacdcf765ebe.pdf",
     "static/media/primeicons.eot": "/static/media/primeicons.d44157bdfa026dc877af.eot",
     "static/media/primeicons.woff": "/static/media/primeicons.10d3152104f2208ac82a.woff",
     "static/media/primeicons.ttf": "/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
@@ -21,11 +21,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.5b311aae.css.map": "/static/css/main.5b311aae.css.map",
-    "main.5e8c835e.js.map": "/static/js/main.5e8c835e.js.map",
+    "main.0da904b2.js.map": "/static/js/main.0da904b2.js.map",
     "787.a6e0be23.chunk.js.map": "/static/js/787.a6e0be23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b311aae.css",
-    "static/js/main.5e8c835e.js"
+    "static/js/main.0da904b2.js"
   ]
 }
