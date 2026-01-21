@@ -50,8 +50,10 @@ export default function About() {
               I’ve delivered <code style = {aboutstyle}>Angular/TypeScript</code> front-endsand serverless backends on 
               <code style = {aboutstyle}>AWS (Lambda, S3, DynamoDB) and RESTful API </code>
               at Evertz Microsystems, and earlier built <code style = {aboutstyle}>ReactJS/React Native</code> interfaces at Harmonysoft.
-               I also have experiences with <code style = {aboutstyle}>Power BI and data analysis. </code>
-               I thrive on optimizing performance, crafting clean UI/UX, and learning the latest cloud and web technologies.
+              <br /><br />
+              I also have hands-on experience designing ML workflows, including <code style = {aboutstyle}>data preprocessing, feature extraction, model training, and evaluation,</code> with a focus on deploying models into real-time and cloud-based applications. 
+              I’ve worked with data analysis and visualization tools such as <code style = {aboutstyle}>Power BI</code> to support decision-making and performance monitoring. 
+              I enjoy combining ML models with scalable systems, optimizing latency and throughput, and delivering clean, user-centered interfaces.
               </code>
               <br /><br />
     

@@ -24,6 +24,31 @@ export default function Projects() {
               <code style = {{fontfamily: 'Courier New'}}>
                 <div>
                   <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
+                    RTSL - Real-Time Sign Language Translator
+                  </code>
+                  <code style = {{fontfamily: 'Courier New', fontStyle: 'italic'}}>
+                    Python, PyTorch, Vue, Mediapipe, Numpy, Hugging Face
+                  </code>
+
+                  <br/> <br/>
+
+                  <div>
+                    <a href="https://github.com/PourquoiEstTu/rtsl">
+                      <button
+                        className="border border-lightblue_vs text-lightblue_vs  p-1.5 rounded hover:bg-opacity-10 hover:bg-lightblue_vs "
+                        >
+                          Visit github repo here! &nbsp;
+                          <i className='pi  pi-check'> </i>
+                      </button>
+                    </a>
+                  </div>
+
+                </div>
+
+                <br/> <br/> <br/>
+
+                <div>
+                  <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
                     Personal Website
                   </code>
                   <code style = {{fontfamily: 'Courier New', fontStyle: 'italic'}}>
@@ -44,8 +69,6 @@ export default function Projects() {
                   </div>
 
                 </div>
-
-                <br/> <br/> <br/>
 
                 {/* <div>
                   <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
