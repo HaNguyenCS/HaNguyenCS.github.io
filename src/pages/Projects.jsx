@@ -29,6 +29,20 @@ export default function Projects() {
                   <code style = {{fontfamily: 'Courier New', fontStyle: 'italic'}}>
                     Python, PyTorch, Vue, Mediapipe, Numpy, Hugging Face
                   </code>
+                  <p>
+                    • A real-time ASL translation pipeline that recognizes continuous signing from live video and converts it into
+                    structured gloss sequences using a Temporal Graph Convolutional Network (TGCN) with sliding-window
+                    inference for temporal modeling of hand and body landmarks.
+                  </p>
+                  <p>
+                    • Used Glossa-BART transformer for sequence-to-sequence translation of ASL glosses to natural English text,
+                    achieving 87% semantic similarity with custom conversational ASL glosses.
+                  </p>
+                  <p>
+                    • Developed a browser extension for Zoom/Google Meet/Microsoft Teams that provides real-time ASL-to-English
+                    translation, enabling accessibility for deaf and hard-of-hearing participants in online meetings through live
+                    captioning of signed content.
+                  </p>
 
                   <br/> <br/>
 
