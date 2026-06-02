@@ -63,6 +63,72 @@ export default function Projects() {
 
                 <div>
                   <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
+                    snoop.ai
+                  </code>
+                  <code style = {{fontfamily: 'Courier New', fontStyle: 'italic'}}>
+                    Next.js, React, FastAPI, SQLite, C++, Groq AI
+                  </code>
+                  <p>
+                    • Track winner at MakersLounge Innovation Hackathon Toronto — an AI-powered competitor monitoring dashboard
+                    that watches Bluesky for keyword matches, analyzes posts with AI, and surfaces prioritized market events.
+                  </p>
+                  <p>
+                    • Built a C++ scraper pipeline connected to Bluesky Jetstream, a FastAPI backend with Groq AI analysis,
+                    and a Next.js dashboard for profiles, sort/filter/search, and actionable business insights.
+                  </p>
+
+                  <br/> <br/>
+
+                  <div>
+                    <a target='_blank' rel="noreferrer" href="https://github.com/HaNguyenCS/snoop.ai">
+                      <button
+                        className="border border-lightblue_vs text-lightblue_vs  p-1.5 rounded hover:bg-opacity-10 hover:bg-lightblue_vs "
+                        >
+                          Visit github repo here! &nbsp;
+                          <i className='pi  pi-check'> </i>
+                      </button>
+                    </a>
+                  </div>
+
+                </div>
+
+                <br/> <br/> <br/>
+
+                <div>
+                  <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
+                    NailedIt.ai
+                  </code>
+                  <code style = {{fontfamily: 'Courier New', fontStyle: 'italic'}}>
+                    React, FastAPI, ElevenLabs, Twilio, Google Calendar API
+                  </code>
+                  <p>
+                    • Track winner at Cursor Hackathon Toronto — a multilingual AI receptionist for nail salons that answers
+                    customer phone calls, transcribes conversations, and books appointments using voice AI.
+                  </p>
+                  <p>
+                    • Built a live dashboard with call status, voice wave animation, real-time transcript, and translation into
+                    the salon owner’s preferred language, with confirmed bookings automatically added to Google Calendar.
+                  </p>
+
+                  <br/> <br/>
+
+                  <div>
+                    <a target='_blank' rel="noreferrer" href="https://github.com/YvesDonato/cursorhackathon/tree/main">
+                      <button
+                        className="border border-lightblue_vs text-lightblue_vs  p-1.5 rounded hover:bg-opacity-10 hover:bg-lightblue_vs "
+                        >
+                          Visit github repo here! &nbsp;
+                          <i className='pi  pi-check'> </i>
+                      </button>
+                    </a>
+                  </div>
+
+                </div>
+
+                <br/> <br/> <br/>
+
+                <div>
+                  <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
                     Personal Website
                   </code>
                   <code style = {{fontfamily: 'Courier New', fontStyle: 'italic'}}>
