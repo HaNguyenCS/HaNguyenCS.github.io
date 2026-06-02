@@ -6,7 +6,7 @@ const GitLogo = require("../assets/GitLogo.png");
 const LinkedinLogo = require("../assets/LinkedinLogo.png");
 const KaggleLogo = require("../assets/KaggleLogo.png");
 const MailLogo = require("../assets/MailLogo.png");
-const ProfilePic = require("../assets/profileNew.jpeg")
+const ProfilePic = require("../assets/grad_profile.jpeg")
 
 export default function LeftBar() {
     const [showWebList, SetShowWebList] = useState(true);

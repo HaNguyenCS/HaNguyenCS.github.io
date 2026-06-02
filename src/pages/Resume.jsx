@@ -69,7 +69,7 @@ export default function Resume() {
               </div>
               <a
                 href={myResume}
-                download="Ha Nguyen Software Dev Resume"
+                download="HaNguyen_resume.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
